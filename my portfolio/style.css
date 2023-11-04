@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('./images/img_1_1641978225790.jpg');
+    background-size: cover;
+    color: black;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f8b400;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.services {
+    background-color: #e1f6f5;
+    padding: 100px 0;
+}
+
+.services h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service img {
+    max-width: 480px;
+    border-radius: 5px;
+}
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 320px;
+    background-color: rgb(213, 241, 237);
+    padding: 25px;
+    
+}
+
+
+.project h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about{
+    background-color: #333;
+    padding: 100px 0;
+}
+.about-text {
+    
+     text-align: center;
+     background-color: #333;
+     color: #fff;
+   
+}
+.about-text h2{
+     font-size: 30px;
+     margin-bottom: 20px;
+}
+.learn-more {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f8b400;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.contact-form h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background-color: #f8b400;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+@media ((min-width:350px) and (max-width:450)){
+    .service img {
+        width: 400px;
+        padding: 25px;
+}
+    
+
+    .about-text, .about-image {
+        width: 100%;
+        float: none;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .services .service {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
